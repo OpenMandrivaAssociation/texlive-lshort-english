@@ -1,3 +1,9 @@
+# revision 22002
+# category Package
+# catalog-ctan /info/lshort/english
+# catalog-date 2011-04-06 15:14:49 +0200
+# catalog-license gpl2
+# catalog-version 5.01
 Name:		texlive-lshort-english
 Version:	5.01
 Release:	1
@@ -28,6 +34,7 @@ translations are of the current English version, of course.
 %doc %{_texmfdistdir}/doc/latex/lshort-english/README
 %doc %{_texmfdistdir}/doc/latex/lshort-english/lshort-5.01.src.tar.gz
 %doc %{_texmfdistdir}/doc/latex/lshort-english/lshort.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,3 +45,5 @@ translations are of the current English version, of course.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
