@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The document derives from a German introduction ('lkurz'),
@@ -34,7 +32,6 @@ translations are of the current English version, of course.
 %doc %{_texmfdistdir}/doc/latex/lshort-english/README
 %doc %{_texmfdistdir}/doc/latex/lshort-english/lshort-5.01.src.tar.gz
 %doc %{_texmfdistdir}/doc/latex/lshort-english/lshort.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,5 +42,3 @@ translations are of the current English version, of course.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
