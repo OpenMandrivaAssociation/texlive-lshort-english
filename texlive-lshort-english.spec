@@ -6,7 +6,7 @@
 # catalog-version 5.01
 Name:		texlive-lshort-english
 Version:	5.01
-Release:	1
+Release:	2
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/english
