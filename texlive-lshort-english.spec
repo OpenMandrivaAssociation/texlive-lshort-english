@@ -1,12 +1,12 @@
-# revision 22002
+# revision 33687
 # category Package
 # catalog-ctan /info/lshort/english
-# catalog-date 2011-04-06 15:14:49 +0200
+# catalog-date 2014-04-22 00:43:27 +0200
 # catalog-license gpl2
-# catalog-version 5.01
+# catalog-version 5.02
 Name:		texlive-lshort-english
-Version:	5.01
-Release:	7
+Version:	5.02
+Release:	1
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/english
@@ -20,17 +20,15 @@ Requires(pre):	texlive-tlpkg
 %description
 The document derives from a German introduction ('lkurz'),
 which was translated and updated; it continues to be updated.
-This translation has, in its turn, been translated into
-Finnish, French, German, Italian, Japanese, Korean, Mongolian,
-Persian (Farsi), Polish, Portuguese, Brazilian Portuguese,
-Russian, Slovak, Slovenian, Spanish and Ukranian. Not all
-translations are of the current English version, of course.
+This translation has, in its turn, been translated into several
+other languages; see the lshort catalogue entry for the current
+list.
 
 #-----------------------------------------------------------------------
 %files
 %doc %{_texmfdistdir}/doc/latex/lshort-english/CHANGES
 %doc %{_texmfdistdir}/doc/latex/lshort-english/README
-%doc %{_texmfdistdir}/doc/latex/lshort-english/lshort-5.01.src.tar.gz
+%doc %{_texmfdistdir}/doc/latex/lshort-english/lshort-5.03.src.tar.gz
 %doc %{_texmfdistdir}/doc/latex/lshort-english/lshort.pdf
 
 #-----------------------------------------------------------------------
@@ -42,17 +40,3 @@ translations are of the current English version, of course.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.01-2
-+ Revision: 753468
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.01-1
-+ Revision: 718888
-- texlive-lshort-english
-- texlive-lshort-english
-- texlive-lshort-english
-- texlive-lshort-english
-
