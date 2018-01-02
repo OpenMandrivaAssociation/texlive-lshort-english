@@ -1,12 +1,6 @@
-# revision 33687
-# category Package
-# catalog-ctan /info/lshort/english
-# catalog-date 2014-04-22 00:43:27 +0200
-# catalog-license gpl2
-# catalog-version 5.02
 Name:		texlive-lshort-english
-Version:	5.02
-Release:	4
+Version:	5.0.5
+Release:	1
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/english
@@ -26,10 +20,7 @@ list.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/lshort-english/CHANGES
-%doc %{_texmfdistdir}/doc/latex/lshort-english/README
-%doc %{_texmfdistdir}/doc/latex/lshort-english/lshort-5.03.src.tar.gz
-%doc %{_texmfdistdir}/doc/latex/lshort-english/lshort.pdf
+%doc %{_texmfdistdir}/doc/latex/lshort-english
 
 #-----------------------------------------------------------------------
 %prep
