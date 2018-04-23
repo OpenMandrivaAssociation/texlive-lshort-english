@@ -1,5 +1,5 @@
 Name:		texlive-lshort-english
-Version:	5.0.5
+Version:	6.2
 Release:	1
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
