@@ -1,12 +1,12 @@
 Name:		texlive-lshort-english
-Version:	6.2
-Release:	2
+Version:	58309
+Release:	1
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/english
 License:	GPL2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,7 +24,7 @@ list.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
