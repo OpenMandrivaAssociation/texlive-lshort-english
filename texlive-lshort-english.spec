@@ -3,7 +3,7 @@ Version:	58309
 Release:	2
 Summary:	A (Not So) Short Introduction to LaTeX2e
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/english
+URL:		https://www.ctan.org/tex-archive/info/lshort/english
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-english.doc.r%{version}.tar.xz
